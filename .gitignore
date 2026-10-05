@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local agent-project environments and generated artifacts
+**/.venv/
+**/venv/
+**/env/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.ipynb_checkpoints/
+**/.streamlit/secrets.toml
+**/.env
+**/*.log
+**/*.sqlite3
+**/*.db
+**/*.whl
+**/*.pyd
+**/*.dll
+**/*.exe
+**/*.bin
